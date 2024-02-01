@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body >
+<div class="login-container">
+<h1>Login</h1>
+ <form action="#" onsubmit="return validateForm()">
+<div
+ class="form-group">
+<label for="username">Username:</label>
+<input type="text"id="username" pattern="[a-zA-Z0-9]+" name="username" placeholder="Enter username"required>
+</div>
+<div
+ class="form-group">
+<label for="password">Password:</label>
+<input type="password"id="password"name="password"placeholder="Enter password"required>
+</div>
+<button type="submit">Login</button>
+<label>
+<input type="checkbox" checked="checked" name="remember"> Remember me
+<div >
+        <span class="psw"> <a href="#">Forget password?</a></span>
+      </div>
+  </label>
+</div>
+
+
+       
+</form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
